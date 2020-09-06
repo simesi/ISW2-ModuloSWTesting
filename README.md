@@ -1,19 +1,19 @@
 # ISW2-ModuloSWTesting
 
-## Compilazione ed esecuione dei test per il progetto Bookkeeper
+## Compilazione ed esecuzione dei test per il progetto Bookkeeper
 
 Esecuzione dei test e generazione dei report di JaCoCo:
 ```bash
 mvn clean verify
 ```
 
-Esecuzione del mutation test da eseguire su...:
+Esecuzione del mutation test da lanciare su https://github.com/simesi/bookkeeper/tree/master/bookkeeper-server/:
 ```bash
 mvn clean verify -P pit-test
 ```
 Il report di pit viene generato nella directory ```./bookkeeper-server/target/pit-reports/```
 
-## Compilazione ed esecuione dei test per il progetto OpenJPA
+## Compilazione ed esecuzione dei test per il progetto OpenJPA
 
 Esecuzione dei test e generazione dei report di JaCoCo:
 ```bash
