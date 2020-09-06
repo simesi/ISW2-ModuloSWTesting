@@ -7,7 +7,7 @@ Esecuzione dei test e generazione dei report di JaCoCo:
 mvn clean verify
 ```
 
-Esecuzione del mutation test lanciandolo da https://github.com/simesi/bookkeeper/tree/master/bookkeeper-server/ oppure su https://github.com/simesi/bookkeeper/tree/master/bookkeeper-common/src/test:
+Esecuzione del mutation test da lanciare su https://github.com/simesi/bookkeeper/tree/master/bookkeeper-server/ oppure su https://github.com/simesi/bookkeeper/tree/master/bookkeeper-common/src/test:
 ```bash
 mvn clean verify -P pit-test
 ```
@@ -20,7 +20,7 @@ Esecuzione dei test e generazione dei report di JaCoCo:
 mvn clean verify
 ```
 
-Esecuzione del mutation test lanciandolo da  https://github.com/simesi/openjpa/tree/master/bookkeeper-kernel/:
+Esecuzione del mutation test da lanciare su  https://github.com/simesi/openjpa/tree/master/bookkeeper-kernel/:
 ```bash
 mvn clean verify -P pit-test
 ```
