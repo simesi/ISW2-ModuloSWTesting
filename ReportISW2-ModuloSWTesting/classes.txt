@@ -1,4 +1,4 @@
 org.apache.bookkeeper.metastore.Value.java
-org.apache.bookkeeper.util.MathUtils.java
+org.apache.bookkeeper.common.util.MathUtils.java
 org.apache.openjpa.kernel.conf.Specification.java
 org.apache.openjpa.kernel.util.ArrayStateImage.java
